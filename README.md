@@ -41,4 +41,11 @@ The steps taken to get to the solution were as follows:
 ---
 ### Cluster Cryptocurrencies with K-means Using the PCA Data
 
-17. Visualize and Compare the Results
+16. use KMeans with optimzed clusters per PCA Elbow Curve (4)
+17. predict the pca data
+18. plot the data using hvplot.scatter
+
+### Visualize and Compare the Results
+19. compare the 2 elbow curves from original scaled data vs pca data
+20. compare the 2 scatter hvplots from original data vs pca data
+21. determine which one does a better job clustering the data (answers in code file)

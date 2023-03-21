@@ -22,21 +22,21 @@ The steps taken to get to the solution were as follows:
 ### Cluster Cryptocurrencies with K-means Using the Original Scaled Data
 
 7. use right number of clusters (4) as input into KMeans model
-8. predict the data clustered
-9. create an hvplot scatter chart to display the market clusters
+8. predict the data clusters
+9. create an hvplot scatter chart to display the new market clusters
 
 ---
 
 ### Optimize Clusters using Principal Component Analysis(PCA)
 
-10. instantiate PCA model with 3 components and "fit_transform" the scaled market dataframe into model
+10. instantiate a PCA model with 3 components and "fit_transform" the scaled market dataframe into model
 11. look at the explained_variance_ratio_
-12. create a new dataframe storing PCA data
+12. create a new dataframe for storing new PCA data
 ---
 ### Find the Best Value for k Using the PCA Data
 
 13. use KMeans model with market pca dataframe
-14. fit dataframe into model and capture the inertia_
+14. fit dataframe into KMeans model and capture the inertia_
 15. display new pca elbow curve to find the best value for k: 4
 ---
 ### Cluster Cryptocurrencies with K-means Using the PCA Data
@@ -48,4 +48,4 @@ The steps taken to get to the solution were as follows:
 ### Visualize and Compare the Results
 19. compare the 2 elbow curves from original scaled data vs pca data
 20. compare the 2 scatter hvplots from original data vs pca data
-21. determine which one does a better job clustering the data (answers in code file)
+21. determine which hvplot solution does a better job clustering the data into organized segments (answers in code file)

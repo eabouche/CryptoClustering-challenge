@@ -4,11 +4,11 @@
 For this project we'll use Python and Unsupervised Learning to predict if cryptocurrencies are affected by 24-hour or 7-day price changes.
 
 The steps taken to get to the solution were as follows:
-1. Prepare the Data
+### 1. Prepare the Data 
 1.1 load crypto market data into a DataFrame
 1.2 scale the data using StandardScaler from sklearn library
 ---
-2. Find the Best Value for k Using the Original Scaled DataFrame
+### 2. Find the Best Value for k Using the Original Scaled DataFrame
 2.1 use a KMeans model
 2.2 fit scaled data into model
 2.3 extract inertia_ from model cluster

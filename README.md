@@ -1,7 +1,7 @@
 # CryptoClustering-challenge
 ## Unsupervised Machine Learning 
 
-For this project we'll use Python and Unsupervised Learning to predict if cryptocurrencies are affected by 24-hour or 7-day price changes.
+This project uses Python and the Unsupervised Learning libraries to predict if cryptocurrencies are affected by 24-hour or 7-day price changes.
 
 The steps taken to get to the solution were as follows:
 
